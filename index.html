@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinetour</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/share?selection.family=Bebas+Neue|Manrope:wght@200..800"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/share?selection.family=Bebas+Neue|Hanuman:wght@100..900|Manrope:wght@200..800"
+    />
+  </head>
+  <body>
+    <div
+      id="hero"
+      class="bg-[url('/imgs/hero.png')] bg-no-repeat bg-cover w-full h-screen px-[118px] pt-[30px] flex flex-col items-center relative"
+    >
+      <div
+        id="navbar"
+        class="w-full h-[43.5px] flex justify-between items-center"
+      >
+        <img src="./imgs/logo.png" alt="" class="w-[101px] h-[35px]" />
+        <div id="navbuttons" class="flex gap-24 items-center">
+          <div class="text-white">Home</div>
+          <div class="text-white">About</div>
+          <div class="text-white">Contact</div>
+          <img src="./imgs/user.png" alt="" class="w-[20px] h-[20px]" />
+        </div>
+        <img src="./imgs/Language.svg" alt="" class="w-[40px] h-[40px]" />
+      </div>
+      <div
+        id="title"
+        class="absolute inset-0 m-auto h-[394px] w-[618px] flex flex-col items-center"
+      >
+        <div
+          class="text-[#E8EDF2B8] font-(family-name: BebasNeue) font-[400] text-[80px] tracking-[-0.05em] w-fit h-fit"
+        >
+          PURE MAGIC
+        </div>
+        <div
+          class="text-[#FDFDFEFA] font-(family-name: BebasNeue) font-[400] text-[250px] tracking-[-0.05em] w-fit"
+        >
+          AWAITS!
+        </div>
+        <div
+          class="text-[#FFFFFFCC] font-(family-name: Hanuman) font-[900] text-[64px] tracking-[-0.05em] w-fit h-fit"
+        >
+          2024
+        </div>
+      </div>
+    </div>
+    <div
+      id="location"
+      class="bg-[url('/imgs/location.png')] w-full h-auto"
+    ></div>
+    <div id="roadmap" class="bg-[url('/imgs/roadmap.png')] w-full h-auto"></div>
+    <div
+      id="price"
+      class="bg-[url('/imgs/price-footer.png')] w-full h-auto"
+    ></div>
+  </body>
+</html>
