@@ -13,6 +13,10 @@
       rel="stylesheet"
       href="https://fonts.google.com/share?selection.family=Bebas+Neue|Hanuman:wght@100..900|Manrope:wght@200..800"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/share?selection.family=Bebas+Neue|Hanuman:wght@100..900|Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Manrope:wght@200..800"
+    />
   </head>
   <body>
     <div
@@ -55,9 +59,175 @@
     </div>
     <div
       id="location"
-      class="bg-[url('/imgs/location.png')] w-full h-auto"
-    ></div>
-    <div id="roadmap" class="bg-[url('/imgs/roadmap.png')] w-full h-auto"></div>
+      class="bg-[url('/imgs/location.png')] w-full h-[500px] bg-no-repeat bg-cover flex items-center justify-center"
+    >
+      <div id="card-container" class="flex gap-10">
+        <div
+          id="card"
+          class="bg-[url('/imgs/terkhiin-tsagaan-lake.png')] bg-cover bg-center w-[275px] h-[370px] rounded-[40px] shadow-[8px_8px_0px_0px_#29728B40,-8px_-8px_0px_0px_#1F72AA75] flex justify-center items-center"
+        >
+          <p
+            class="font-[family-name: BebasNeue] text-[#FDFDFECC] font-[400] text-[28px] text-center"
+          >
+            TERKHIIN TSAGAAN LAKE
+          </p>
+        </div>
+        <div
+          id="card"
+          class="bg-[url('/imgs/monastery.png')] bg-cover bg-center w-[275px] h-[370px] rounded-[40px] shadow-[8px_8px_0px_0px_#29728B40,-8px_-8px_0px_0px_#1F72AA75] flex justify-center items-center"
+        >
+          <p
+            class="font-[family-name: BebasNeue] text-[#FDFDFECC] font-[400] text-[28px] text-center"
+          >
+            Amarbayasgalant Monastery
+          </p>
+        </div>
+        <div
+          id="card"
+          class="bg-[url('/imgs/khuvsgul-lake.png')] bg-cover bg-center w-[275px] h-[370px] rounded-[40px] shadow-[8px_8px_0px_0px_#29728B40,-8px_-8px_0px_0px_#1F72AA75] flex justify-center items-center"
+        >
+          <p
+            class="font-[family-name: BebasNeue] text-[#FDFDFECC] font-[400] text-[28px] text-center"
+          >
+            KHUVSGUL LAKE
+          </p>
+        </div>
+        <div
+          id="card"
+          class="bg-[url('/imgs/khorgiin-togoo.png')] bg-cover bg-center w-[275px] h-[370px] rounded-[40px] shadow-[8px_8px_0px_0px_#29728B40,-8px_-8px_0px_0px_#1F72AA75] flex justify-center items-center"
+        >
+          <p
+            class="font-[family-name: BebasNeue] text-[#FDFDFECC] font-[400] text-[28px] text-center"
+          >
+            KHORGIIN TOGOO
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      id="roadmap"
+      class="bg-[url('/imgs/roadmap.png')] w-full h-[1022px] p-[121px] flex flex-col items-center justify-between"
+    >
+      <div
+        id="roadmap-title"
+        class="w-full h-[85px] flex flex-col items-center justify-center"
+      >
+        <p class="font-[family-name: Inter] font-[600] text-[42px]">
+          Destination of Our Agency
+        </p>
+        <p
+          class="font-[family-name: Inter] font-[500] text-[20px] text-[#18181BB2]"
+        >
+          Pack Your Bags and Get Ready
+        </p>
+      </div>
+      <div
+        id="roadmap-containers"
+        class="w-full h-[640px] flex justify-between"
+      >
+        <div
+          id="left-container"
+          class="w-[513px] h-[640px] flex flex-col gap-[20px]"
+        >
+          <div
+            id="roadmap-card"
+            class="w-[513px] h-[112px] rounded-[120px] p-[30px] bg-[#EEE9D9] flex justify-between items-center"
+          >
+            <div id="roadmap-card-text">
+              <p class="font-[family-name: Inter] font-[500] text-[24px]">
+                Sukhbaatar Square
+              </p>
+              <p class="font-[family-name: Inter] font-[400] text-[14px]">
+                Ulaanbaatar
+              </p>
+            </div>
+            <div
+              id="roadmap-day"
+              class="w-[52px] h-[48px] bg-white rounded-full flex justify-center items-center text-sm"
+            >
+              DAY 1
+            </div>
+          </div>
+          <div
+            id="roadmap-card"
+            class="w-[513px] h-[112px] rounded-[120px] p-[30px] bg-[#8BB8C1CC] flex justify-between items-center"
+          >
+            <div id="roadmap-card-text">
+              <p class="font-[family-name: Inter] font-[500] text-[24px]">
+                Amarbayasgalant Monastery
+              </p>
+              <p class="font-[family-name: Inter] font-[400] text-[14px]">
+                Bulgan
+              </p>
+            </div>
+            <div
+              id="roadmap-day"
+              class="w-[52px] h-[48px] bg-white rounded-full flex justify-center items-center text-sm"
+            >
+              DAY 2
+            </div>
+          </div>
+          <div
+            id="roadmap-card"
+            class="w-[513px] h-[112px] rounded-[120px] p-[30px] bg-[#AAD8D7CC] flex justify-between items-center"
+          >
+            <div id="roadmap-card-text">
+              <p class="font-[family-name: Inter] font-[500] text-[24px]">
+                Khorgiin Togoo
+              </p>
+              <p class="font-[family-name: Inter] font-[400] text-[14px]">
+                Arkhangai
+              </p>
+            </div>
+            <div
+              id="roadmap-day"
+              class="w-[52px] h-[48px] bg-white rounded-full flex justify-center items-center text-sm"
+            >
+              DAY 3
+            </div>
+          </div>
+          <div
+            id="roadmap-card"
+            class="w-[513px] h-[112px] rounded-[120px] p-[30px] bg-[#8BC0BDCC] flex justify-between items-center"
+          >
+            <div id="roadmap-card-text">
+              <p class="font-[family-name: Inter] font-[500] text-[24px]">
+                Terkhiin Tsagaan Lake
+              </p>
+              <p class="font-[family-name: Inter] font-[400] text-[14px]">
+                Arkhangai
+              </p>
+            </div>
+            <div
+              id="roadmap-day"
+              class="w-[52px] h-[48px] bg-white rounded-full flex justify-center items-center text-sm"
+            >
+              DAY 4
+            </div>
+          </div>
+          <div
+            id="roadmap-card"
+            class="w-[513px] h-[112px] rounded-[120px] p-[30px] bg-[#97CCE0CC] flex justify-between items-center"
+          >
+            <div id="roadmap-card-text">
+              <p class="font-[family-name: Inter] font-[500] text-[24px]">
+                Khuvsgul Lake
+              </p>
+              <p class="font-[family-name: Inter] font-[400] text-[14px]">
+                Khuvsgul
+              </p>
+            </div>
+            <div
+              id="roadmap-day"
+              class="w-[52px] h-[48px] bg-white rounded-full flex justify-center items-center text-sm"
+            >
+              DAY 5
+            </div>
+          </div>
+        </div>
+        <div id="right-container" class="w-[647px] h-[640px]"></div>
+      </div>
+    </div>
     <div
       id="price"
       class="bg-[url('/imgs/price-footer.png')] w-full h-auto"
