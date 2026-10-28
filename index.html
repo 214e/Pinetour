@@ -7,15 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link
       rel="stylesheet"
-      href="https://fonts.google.com/share?selection.family=Bebas+Neue|Manrope:wght@200..800"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.google.com/share?selection.family=Bebas+Neue|Hanuman:wght@100..900|Manrope:wght@200..800"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.google.com/share?selection.family=Bebas+Neue|Hanuman:wght@100..900|Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Manrope:wght@200..800"
+      href="https://fonts.google.com/share?selection.family=Bebas+Neue|Hanuman:wght@100..900|Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Manrope:wght@200..800|Montserrat:ital,wght@0,100..900;1,100..900"
     />
   </head>
   <body>
@@ -230,7 +222,252 @@
     </div>
     <div
       id="price"
-      class="bg-[url('/imgs/price-footer.png')] w-full h-auto"
-    ></div>
+      class="bg-[url('/imgs/price-footer.png')] w-full h-[1120px] pt-[40px] pb-[80px] px-[120px] flex flex-col items-center justify-between"
+    >
+      <div
+        id="price-title"
+        class="w-full h-[85px] flex flex-col items-center justify-center"
+      >
+        <p class="font-[family-name: Inter] font-[600] text-[42px]">
+          Pricing of Our Agency
+        </p>
+        <p
+          class="font-[family-name: Inter] font-[500] text-[20px] text-[#18181BB2]"
+        >
+          Choose a Package That's Right For You
+        </p>
+      </div>
+      <div
+        id="price-card-container"
+        class="w-[1200px] h-[527px] flex items-center justify-between"
+      >
+        <div
+          id="price-card"
+          class="w-[384px] h-[527px] rounded-[40px] bg-white pt-[32px] pb-[48px] px-[24px] flex flex-col justify-between"
+        >
+          <div id="title" class="flex items-center gap-2">
+            <img src="./imgs/container.svg" alt="" />
+            <p>Budget Package</p>
+          </div>
+          <div id="info" class="h-[290px] flex flex-col gap-[32px]">
+            <div>
+              <p
+                class="font-[family-name: Montserrat] font-[600] text-[40px] text-[#303030]"
+              >
+                500$
+              </p>
+              <p
+                class="font-[family-name: Inter] font-[500] text-[16px] text-[#919191]"
+              >
+                Essentials Covered
+              </p>
+            </div>
+            <div class="flex flex-col gap-[16px]">
+              <p
+                class="ml-[40px] font-[family-name: Inter] font-[500] text-[18px] text-[#121316]"
+              >
+                Includes:
+              </p>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  Group Transportation(shared bus)
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  Standard accommodation (yurt or guesthouse)
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  Guided lake tour
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  1 meal per day (breakfast)
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            id="package"
+            class="w-[336px] h-[48px] rounded-full bg-[#A4D1E2]"
+          >
+            Select Package
+          </button>
+        </div>
+        <div
+          id="price-card"
+          class="w-[384px] h-[527px] rounded-[40px] bg-white pt-[32px] pb-[48px] px-[24px] flex flex-col justify-between"
+        >
+          <div id="title" class="flex items-center gap-2">
+            <img src="./imgs/container.svg" alt="" />
+            <p>Standard Package</p>
+          </div>
+          <div id="info" class="h-[290px] flex flex-col gap-[32px]">
+            <div>
+              <p
+                class="font-[family-name: Montserrat] font-[600] text-[40px] text-[#303030]"
+              >
+                800$
+              </p>
+              <p
+                class="font-[family-name: Inter] font-[500] text-[16px] text-[#919191]"
+              >
+                Balanced Adventure
+              </p>
+            </div>
+            <div class="flex flex-col gap-[16px]">
+              <p
+                class="ml-[40px] font-[family-name: Inter] font-[500] text-[18px] text-[#121316]"
+              >
+                Includes:
+              </p>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  Comfortable transportation (mini-bus)
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  Mid-range accommodation (private yurt or lodge)
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  Guided lake tour + nearby hiking
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  2 meals per day (breakfast and dinner)
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            id="package"
+            class="w-[336px] h-[48px] rounded-full bg-[#A4D1E2]"
+          >
+            Select Package
+          </button>
+        </div>
+        <div
+          id="price-card"
+          class="w-[384px] h-[527px] rounded-[40px] bg-white pt-[32px] pb-[48px] px-[24px] flex flex-col justify-between"
+        >
+          <div id="title" class="flex items-center gap-2">
+            <img src="./imgs/container.svg" alt="" />
+            <p>Budget Package</p>
+          </div>
+          <div id="info" class="h-[290px] flex flex-col gap-[32px]">
+            <div>
+              <p
+                class="font-[family-name: Montserrat] font-[600] text-[40px] text-[#303030]"
+              >
+                1200$
+              </p>
+              <p
+                class="font-[family-name: Inter] font-[500] text-[16px] text-[#919191]"
+              >
+                Luxury Package
+              </p>
+            </div>
+            <div class="flex flex-col gap-[16px]">
+              <p
+                class="ml-[40px] font-[family-name: Inter] font-[500] text-[18px] text-[#121316]"
+              >
+                Includes:
+              </p>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  Private transportation (SUV)
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  Luxury accommodation (lakefront lodge)
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  Guided tours (lake + reindeer herder experience)
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./imgs/check.svg" alt="" />
+                <p
+                  class="text-[#3F4145] font-[family-name: Inter] font-[500] text-[14px]"
+                >
+                  All meals included (local cuisine)
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            id="package"
+            class="w-[336px] h-[48px] rounded-full bg-[#A4D1E2]"
+          >
+            Select Package
+          </button>
+        </div>
+      </div>
+      <div
+        id="footer"
+        class="w-full h-[44px] flex items-center justify-between"
+      >
+        <div id="socials" class="flex gap-[40px] items-center">
+          <div
+            id="social"
+            class="flex items-center justify-between w-[167px] h-[44px] bg-white rounded-full px-[22px] py-[12px]"
+          >
+            <img src="./imgs/fb.svg" alt="" />
+            <p class="font-[700] text-[18px] text-[#6972B5]">Facebook</p>
+          </div>
+          <div
+            id="social"
+            class="flex items-center justify-between w-[167px] h-[44px] bg-white rounded-full px-[22px] py-[12px]"
+          >
+            <img src="./imgs/insta.svg" alt="" />
+            <p class="font-[700] text-[18px] text-[#6972B5]">Instagram</p>
+          </div>
+        </div>
+        <img src="./imgs/footer.svg" alt="" />
+      </div>
+    </div>
   </body>
 </html>
